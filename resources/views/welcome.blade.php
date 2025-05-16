@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     @vite('resources/css/app.css')
+
+    <link href="{{ asset('build/assets/app-zNTikezP.css')}}"  rel="preload" as="style" onload="this.rel='stylesheet'">
+    <script src="{{ asset('build/assets/app-T1DpEqax.js') }}" defer></script>
+
     <title>True Crime Metrix</title>
+    
   </head>
   <body>
     <div class="w-1/2 mx-auto pt-12">
