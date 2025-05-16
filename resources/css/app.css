@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+
+
+.font-thunder {
+  font-family: 'A Love of Thunder';
+  src: url('/fonts/A-Love-of-Thunder.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  line-height:1;
+  font-size: 5em;
+}
